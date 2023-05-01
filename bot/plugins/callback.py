@@ -1588,7 +1588,7 @@ async def cb_about(bot, update: CallbackQuery):
     text=+f"<b>POWERFULL SIMPLE AUTO FILTER BOT</b>"
 
     buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/wudixh13/4')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/MLaVIB')
         ], [
             InlineKeyboardButton('Home ⚡', callback_data='start'),
             InlineKeyboardButton("🔙 Back", callback_data="settings")
@@ -1609,11 +1609,11 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-                    InlineKeyboardButton('𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉', url=f"http://t.me/im_kuttu2_bot?startgroup=true")
+                    InlineKeyboardButton('🄶🅁🄾🅄🄿', url="https://t.me/mv_requst_group")
                 ],[
-                    InlineKeyboardButton('Movie 𝖦𝗋𝗈𝗎𝗉', url='https://t.me/wudixh')
+                    InlineKeyboardButton('🄲🄷🄰🄽🄽🄴🄻', url='https://t.me/malayalam_vibe')
                 ],[
-                    InlineKeyboardButton('Help ⚙', callback_data="help")
+                    InlineKeyboardButton('🄷🄴🄻🄿', callback_data="help")
            ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
