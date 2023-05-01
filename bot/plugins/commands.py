@@ -28,7 +28,7 @@ async def start(bot, update):
                 parse_mode=enums.ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton('Movie Group', url="https://t.me/wudixh")
+                            InlineKeyboardButton('🪧🄹🄾🄸🄽🪧', url="https://t.me/malayalam_vibe")
                         ]]
                 ))
         except Exception as e:
@@ -37,11 +37,11 @@ async def start(bot, update):
         return
 #pmstart
     buttons = [[
-                    InlineKeyboardButton('𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉', url=f"http://t.me/im_kuttu2_bot?startgroup=true")
+                    InlineKeyboardButton('🄶🅁🄾🅄🄿', url="https://t.me/mv_requst_group")
                 ],[
-                    InlineKeyboardButton('Movie 𝖦𝗋𝗈𝗎𝗉', url='https://t.me/wudixh')
+                    InlineKeyboardButton('🄲🄷🄰🄽🄽🄴🄻', url='https://t.me/malayalam_vibe')
                 ],[
-                    InlineKeyboardButton('Help ⚙', callback_data="help")
+                    InlineKeyboardButton('🄷🄴🄻🄿', callback_data="help")
            ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -80,7 +80,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/wudixh13/4')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/MLaVIB')
         ], [
             InlineKeyboardButton('Home ⚡', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
